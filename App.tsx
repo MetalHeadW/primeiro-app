@@ -5,7 +5,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 export default function App() {
 const [selecionado, setSelecionado] = useState<boolean>(false);
 return (
-<View style={{ flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+<View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
 <View style={{ width: 50, height: 50, backgroundColor: 'red' }}></View>
 <View style={{ width: 50, height: 50, backgroundColor: 'green' }}></View>
 <View style={{ width: 50, height: 50, backgroundColor: 'blue' }}></View>
